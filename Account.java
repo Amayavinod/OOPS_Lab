@@ -24,7 +24,7 @@ public class Account
 	{
 		InputStreamReader isr=new InputStreamReader(System.in);
 		BufferedReader br=new BufferedReader(isr);
-		System.out.println("second first details");
+		System.out.println(" first person details");
 		Account a=new Account();
 		System.out.println("enter the amount to deposite");
 		int amt1=Integer.parseInt(br.readLine());	
@@ -34,8 +34,8 @@ public class Account
 		a.debit(amt2);
 		System.out.println("second person details");
 		Account b=new Account();
-		a.credit(4000);
-		a.debit(500);
+		b.credit(4000);
+		b.debit(500);
 		
 	}
 }
