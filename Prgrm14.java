@@ -49,7 +49,7 @@ class Prgrm14
 		for(int i=0;i<n;i++)
 		{
 			 
-		System.out.println("-----enter"+i+1+"th Teacher  Details----");
+		System.out.println("-----enter Teacher  Details----");
 		System.out.println("enter employeeID:");
 		int id=Integer.parseInt(br.readLine());
 		System.out.println("enter employee Name:");
@@ -65,9 +65,9 @@ class Prgrm14
 		 t[i]= new Teacher(id,nme,salary,add,dept,sub);
 			
 		}
-		for(int i=1;i<=n;i++)
+		for(int i=0;i<n;i++)
 		{
-			System.out.println("---"+i+"th person details--");
+			System.out.println("---person details--");
 			t[i].disp();
 		}
 	}
