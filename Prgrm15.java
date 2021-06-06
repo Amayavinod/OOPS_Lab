@@ -72,10 +72,10 @@ class Prgrm15
 		System.out.println("enter no of employees");
 		int n=Integer.parseInt(br.readLine());
 		Teacher t[]=new Teacher[n];
-		for(int i=1;i<=n;i++)
+		for(int i=0;i<n;i++)
 		{
 			 
-		System.out.println("-----enter"+i+"th Teacher  Details----");
+		System.out.println("-----enter Teacher  Details----");
 		System.out.println("enter person Name:");
 		String nme=br.readLine();
 		System.out.println("enter person Gender:");
@@ -101,9 +101,9 @@ class Prgrm15
 		 t[i]= new Teacher(nme,sex,ag,add,id,co,qua,salary,dept,sub,tid);
 			
 		}
-		for(int i=1;i<=n;i++)
+		for(int i=0;i<n;i++)
 		{
-			System.out.println("---"+i+"th person details--");
+			System.out.println("--- person details--");
 			t[i].display();
 		}
 	}
