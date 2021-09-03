@@ -63,7 +63,8 @@ class Pgm_18
 				case 8:
 					int pos;
 					System.out.println("enter position to retrive");
-					Systemot.println(ar.get(pos));
+					pos=Integer.parseInt(sc.nextLine());
+					System.out.println(ar.get(pos));
 					break;
 				case 9:
 					System.out.println("sort the list");
