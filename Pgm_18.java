@@ -9,7 +9,7 @@ class Pgm_18
 		System.out.println("ArrayList Operations\n");
 		while(true)
 		{	
-			System.out.println("\n1.add value \n2.add value at specified position\n3.replace value at specified position\n4.remove value \n5.remove value at specified position\n6.find the size\n7.traversal\n8.sorting\n9.exit");
+			System.out.println("\n1.add value \n2.add value at specified position\n3.replace value at specified position\n4.remove value \n5.remove value at specified position\n6.find the size\n7.traversal\n8.retrive a perticular item\n9.sorting\n10.exit");
 			System.out.println("enter your choice:");
 			ch=Integer.parseInt(sc.nextLine());
 			switch(ch)
@@ -61,11 +61,16 @@ class Pgm_18
 						System.out.println(s7);
 					break;
 				case 8:
+					int pos;
+					System.out.println("enter position to retrive");
+					Systemot.println(ar.get(pos));
+					break;
+				case 9:
 					System.out.println("sort the list");
 					Collections.sort(ar);
 					System.out.println(ar);
 					break;
-				case 9:
+				case 10:
    					 System.exit(0);
 				
 				default :
